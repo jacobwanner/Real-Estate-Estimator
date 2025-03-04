@@ -1,0 +1,825 @@
+{
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "pygments",
+    "jupyter_core",
+    "pyqt",
+    "python >=3.10,<3.11.0a0",
+    "ipykernel >=4.1",
+    "jupyter_client >=4.1",
+    "traitlets !=5.2.1,!=5.2.2",
+    "qtpy >=2.4.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Jacob\\miniconda3\\pkgs\\qtconsole-5.6.1-py310haa95532_0",
+  "files": [
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/INSTALLER",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/LICENSE",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/METADATA",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/RECORD",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/REQUESTED",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/WHEEL",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/direct_url.json",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/entry_points.txt",
+    "Lib/site-packages/qtconsole-5.6.1.dist-info/top_level.txt",
+    "Lib/site-packages/qtconsole/__init__.py",
+    "Lib/site-packages/qtconsole/__main__.py",
+    "Lib/site-packages/qtconsole/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/__main__.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/_version.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/ansi_code_processor.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/base_frontend_mixin.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/bracket_matcher.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/call_tip_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/client.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/comms.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/completion_html.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/completion_plain.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/completion_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/console_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/frontend_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/history_console_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/inprocess.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/ipython_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/jupyter_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/kernel_mixins.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/kill_ring.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/mainwindow.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/manager.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/pygments_highlighter.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/rich_ipython_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/rich_jupyter_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/rich_text.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/styles.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/svg.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/usage.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/__pycache__/util.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/_version.py",
+    "Lib/site-packages/qtconsole/ansi_code_processor.py",
+    "Lib/site-packages/qtconsole/base_frontend_mixin.py",
+    "Lib/site-packages/qtconsole/bracket_matcher.py",
+    "Lib/site-packages/qtconsole/call_tip_widget.py",
+    "Lib/site-packages/qtconsole/client.py",
+    "Lib/site-packages/qtconsole/comms.py",
+    "Lib/site-packages/qtconsole/completion_html.py",
+    "Lib/site-packages/qtconsole/completion_plain.py",
+    "Lib/site-packages/qtconsole/completion_widget.py",
+    "Lib/site-packages/qtconsole/console_widget.py",
+    "Lib/site-packages/qtconsole/frontend_widget.py",
+    "Lib/site-packages/qtconsole/history_console_widget.py",
+    "Lib/site-packages/qtconsole/inprocess.py",
+    "Lib/site-packages/qtconsole/ipython_widget.py",
+    "Lib/site-packages/qtconsole/jupyter_widget.py",
+    "Lib/site-packages/qtconsole/kernel_mixins.py",
+    "Lib/site-packages/qtconsole/kill_ring.py",
+    "Lib/site-packages/qtconsole/mainwindow.py",
+    "Lib/site-packages/qtconsole/manager.py",
+    "Lib/site-packages/qtconsole/pygments_highlighter.py",
+    "Lib/site-packages/qtconsole/qstringhelpers.py",
+    "Lib/site-packages/qtconsole/qtconsoleapp.py",
+    "Lib/site-packages/qtconsole/resources/icon/JupyterConsole.svg",
+    "Lib/site-packages/qtconsole/rich_ipython_widget.py",
+    "Lib/site-packages/qtconsole/rich_jupyter_widget.py",
+    "Lib/site-packages/qtconsole/rich_text.py",
+    "Lib/site-packages/qtconsole/styles.py",
+    "Lib/site-packages/qtconsole/svg.py",
+    "Lib/site-packages/qtconsole/tests/__init__.py",
+    "Lib/site-packages/qtconsole/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_app.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_comms.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_completion_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_frontend_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_inprocess_kernel.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_jupyter_widget.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_kill_ring.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-310.pyc",
+    "Lib/site-packages/qtconsole/tests/test_00_console_widget.py",
+    "Lib/site-packages/qtconsole/tests/test_ansi_code_processor.py",
+    "Lib/site-packages/qtconsole/tests/test_app.py",
+    "Lib/site-packages/qtconsole/tests/test_comms.py",
+    "Lib/site-packages/qtconsole/tests/test_completion_widget.py",
+    "Lib/site-packages/qtconsole/tests/test_frontend_widget.py",
+    "Lib/site-packages/qtconsole/tests/test_inprocess_kernel.py",
+    "Lib/site-packages/qtconsole/tests/test_jupyter_widget.py",
+    "Lib/site-packages/qtconsole/tests/test_kill_ring.py",
+    "Lib/site-packages/qtconsole/tests/test_styles.py",
+    "Lib/site-packages/qtconsole/usage.py",
+    "Lib/site-packages/qtconsole/util.py",
+    "Scripts/jupyter-qtconsole-script.py",
+    "Scripts/jupyter-qtconsole.exe"
+  ],
+  "fn": "qtconsole-5.6.1-py310haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\Jacob\\miniconda3\\pkgs\\qtconsole-5.6.1-py310haa95532_0",
+    "type": 1
+  },
+  "md5": "f2c87ff4586c6c3d5826d4243d8e9c89",
+  "name": "qtconsole",
+  "package_tarball_full_path": "C:\\Users\\Jacob\\miniconda3\\pkgs\\qtconsole-5.6.1-py310haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8879cac31d6a25ae880180569ea4d80ca9b24ea9e73a73b5604a9711f1744a29",
+        "sha256_in_prefix": "8879cac31d6a25ae880180569ea4d80ca9b24ea9e73a73b5604a9711f1744a29",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "48350e64722171cff2a5c3532ad6e372ba7f3c00cb1f765f34a6af5dd24f1d00",
+        "sha256_in_prefix": "48350e64722171cff2a5c3532ad6e372ba7f3c00cb1f765f34a6af5dd24f1d00",
+        "size_in_bytes": 5143
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4ff622f4d5a50890d5d80abf2b8eaf0a81275ccbf963a638d6967e9b6961d35e",
+        "sha256_in_prefix": "4ff622f4d5a50890d5d80abf2b8eaf0a81275ccbf963a638d6967e9b6961d35e",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "sha256_in_prefix": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e4e1da342941c7a4d0a536635dafd4f61460820d44920d0bcf7e803ed97bf23f",
+        "sha256_in_prefix": "e4e1da342941c7a4d0a536635dafd4f61460820d44920d0bcf7e803ed97bf23f",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "615e8b924073827405f99ffddcd19d4796242ca72c4bef91c05f043c868a18fc",
+        "sha256_in_prefix": "615e8b924073827405f99ffddcd19d4796242ca72c4bef91c05f043c868a18fc",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole-5.6.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "568f62eccbe97faffc909b4d4c2b4186793efa1ca3fd927a9b3aceb09698cf28",
+        "sha256_in_prefix": "568f62eccbe97faffc909b4d4c2b4186793efa1ca3fd927a9b3aceb09698cf28",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c6608a7b0703be09e2ee9551988b58c10624ce97581bfc19020766c7ae881dac",
+        "sha256_in_prefix": "c6608a7b0703be09e2ee9551988b58c10624ce97581bfc19020766c7ae881dac",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "a2213c7633942366406b41cf74e382cedae4d9897b63c592d49c33a1165f7b02",
+        "sha256_in_prefix": "a2213c7633942366406b41cf74e382cedae4d9897b63c592d49c33a1165f7b02",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cf566dcee9e0e3553725d204e7eaccbb41ff82ecd4374741e10ae5a2e327af2",
+        "sha256_in_prefix": "6cf566dcee9e0e3553725d204e7eaccbb41ff82ecd4374741e10ae5a2e327af2",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4301dea9a9bbf4fe7a43c01430522f484c2d9cf17fcc660a95d2c57a89eee931",
+        "sha256_in_prefix": "4301dea9a9bbf4fe7a43c01430522f484c2d9cf17fcc660a95d2c57a89eee931",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c715b56d883a273a14b5c8446449f67ca4a2cd4c891a78aad72213c0bc8f089",
+        "sha256_in_prefix": "2c715b56d883a273a14b5c8446449f67ca4a2cd4c891a78aad72213c0bc8f089",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/ansi_code_processor.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9770f95faa556743ecf2c2f618a2208ebda8f6d2bb4e2cfe616e1b0ba4ad3400",
+        "sha256_in_prefix": "9770f95faa556743ecf2c2f618a2208ebda8f6d2bb4e2cfe616e1b0ba4ad3400",
+        "size_in_bytes": 9622
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/base_frontend_mixin.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6448a70d5a14e97fac973c82148a34feba2fbc86bd61150ccdae1c49a059ab42",
+        "sha256_in_prefix": "6448a70d5a14e97fac973c82148a34feba2fbc86bd61150ccdae1c49a059ab42",
+        "size_in_bytes": 4941
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/bracket_matcher.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9d7439b0b68c59fc520383f0d85f57ee0b7012bbaaf484ba87160e905f9d811",
+        "sha256_in_prefix": "b9d7439b0b68c59fc520383f0d85f57ee0b7012bbaaf484ba87160e905f9d811",
+        "size_in_bytes": 2916
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/call_tip_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cefc538a300191f531d53f624919dab8cbd6bcd06cc1816d27ee22c98f5613bf",
+        "sha256_in_prefix": "cefc538a300191f531d53f624919dab8cbd6bcd06cc1816d27ee22c98f5613bf",
+        "size_in_bytes": 7935
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/client.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cf032d8b2d829fb0f4d911764676801cd8dce31e5dc85259a98e46e8ffb7a71",
+        "sha256_in_prefix": "0cf032d8b2d829fb0f4d911764676801cd8dce31e5dc85259a98e46e8ffb7a71",
+        "size_in_bytes": 2487
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/comms.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aaa5a38ec0d62c1e747047d658dde976a1c884eb2f2be3ba8097578c70bef93c",
+        "sha256_in_prefix": "aaa5a38ec0d62c1e747047d658dde976a1c884eb2f2be3ba8097578c70bef93c",
+        "size_in_bytes": 8194
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/completion_html.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a831779351ee40a0eb44387c7e458f8feb524a38f2a605af7aa923d17c050b6d",
+        "sha256_in_prefix": "a831779351ee40a0eb44387c7e458f8feb524a38f2a605af7aa923d17c050b6d",
+        "size_in_bytes": 10471
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/completion_plain.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a0ed92badf9e610c54cae9c8f78f716027469c18bc0a981f3914bf439f2355f",
+        "sha256_in_prefix": "1a0ed92badf9e610c54cae9c8f78f716027469c18bc0a981f3914bf439f2355f",
+        "size_in_bytes": 2085
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/completion_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2164dd3f85223932fc4cad36dcac2c5f18ce63436ed7fb51dc710b75368f2535",
+        "sha256_in_prefix": "2164dd3f85223932fc4cad36dcac2c5f18ce63436ed7fb51dc710b75368f2535",
+        "size_in_bytes": 6332
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/console_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d057b96d99af330e8e64c6b0138e0faf52021b7b51a55e9782f12de7767a965f",
+        "sha256_in_prefix": "d057b96d99af330e8e64c6b0138e0faf52021b7b51a55e9782f12de7767a965f",
+        "size_in_bytes": 63747
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/frontend_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6edd77c395775a063f21731857de175e12db6911d27a1b1cb4b2f049c8bbe69f",
+        "sha256_in_prefix": "6edd77c395775a063f21731857de175e12db6911d27a1b1cb4b2f049c8bbe69f",
+        "size_in_bytes": 25055
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/history_console_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "792a5db2da1814cfa4efc286ba88b6290460bbf81b8f1a3d7d883554b5f4b9a5",
+        "sha256_in_prefix": "792a5db2da1814cfa4efc286ba88b6290460bbf81b8f1a3d7d883554b5f4b9a5",
+        "size_in_bytes": 5789
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/inprocess.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b9a6ba904a003849dd767b5f4ef8ff107f3b9366dfebe0daada24d37eec3895",
+        "sha256_in_prefix": "1b9a6ba904a003849dd767b5f4ef8ff107f3b9366dfebe0daada24d37eec3895",
+        "size_in_bytes": 3950
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/ipython_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a593284622a2447d96ba624c4a5d6240b3ef013d7f54f8f44b4edad0ae3f2cc6",
+        "sha256_in_prefix": "a593284622a2447d96ba624c4a5d6240b3ef013d7f54f8f44b4edad0ae3f2cc6",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/jupyter_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "09fe176260a5b89cf9fd3b33f7ac88e71247ebca3f785a4a4baa141d93358e73",
+        "sha256_in_prefix": "09fe176260a5b89cf9fd3b33f7ac88e71247ebca3f785a4a4baa141d93358e73",
+        "size_in_bytes": 16262
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/kernel_mixins.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa2765460ba65d5040c77d99168a713482a6836f2b163a51c8d3a47803cc5874",
+        "sha256_in_prefix": "fa2765460ba65d5040c77d99168a713482a6836f2b163a51c8d3a47803cc5874",
+        "size_in_bytes": 1855
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/kill_ring.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c262a84a7902fa955e0f590ac001e03566fae0440f4773acc992d11417d9b63",
+        "sha256_in_prefix": "3c262a84a7902fa955e0f590ac001e03566fae0440f4773acc992d11417d9b63",
+        "size_in_bytes": 3583
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/mainwindow.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "17decf770e680ecbabcd7899213d7c2876553a3421f7051aff83e320d90e6604",
+        "sha256_in_prefix": "17decf770e680ecbabcd7899213d7c2876553a3421f7051aff83e320d90e6604",
+        "size_in_bytes": 26352
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f97a74c167edab6de557250df9fedebdfa549278a89761fdffdc028579a1bd6f",
+        "sha256_in_prefix": "f97a74c167edab6de557250df9fedebdfa549278a89761fdffdc028579a1bd6f",
+        "size_in_bytes": 3541
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/pygments_highlighter.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "11bfa62d781e5d2d10e79d7d474876e3e21eaae6a98b163360120cc7077995a0",
+        "sha256_in_prefix": "11bfa62d781e5d2d10e79d7d474876e3e21eaae6a98b163360120cc7077995a0",
+        "size_in_bytes": 7302
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c8c2cd93ad9bd6800c620c4ca7296db54381598a59229cff9581cb1b14a74fb",
+        "sha256_in_prefix": "1c8c2cd93ad9bd6800c620c4ca7296db54381598a59229cff9581cb1b14a74fb",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7e63c08a20c20b8b4b4e30ae54c2c3349bb17a7116ecd1ed1c0042401adddf9",
+        "sha256_in_prefix": "b7e63c08a20c20b8b4b4e30ae54c2c3349bb17a7116ecd1ed1c0042401adddf9",
+        "size_in_bytes": 12523
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/rich_ipython_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "62daa598747b8a80817ad73751d8450a5a54e75de99b288cda16ac0c152ce24c",
+        "sha256_in_prefix": "62daa598747b8a80817ad73751d8450a5a54e75de99b288cda16ac0c152ce24c",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/rich_jupyter_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ff38e9f88fd6e19e080c6ce08be14cd654efa43b2339014b2b81910eb9a0cd2",
+        "sha256_in_prefix": "2ff38e9f88fd6e19e080c6ce08be14cd654efa43b2339014b2b81910eb9a0cd2",
+        "size_in_bytes": 14204
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/rich_text.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae1119c6fc2e245b364b2e2570f8d92c96b6f2917044f0ad0e92a77a67688ebf",
+        "sha256_in_prefix": "ae1119c6fc2e245b364b2e2570f8d92c96b6f2917044f0ad0e92a77a67688ebf",
+        "size_in_bytes": 6651
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/styles.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a886bacb448c62a2edd3c58b905e6103c755806f29c1e3a8f3366862b6be0a2",
+        "sha256_in_prefix": "3a886bacb448c62a2edd3c58b905e6103c755806f29c1e3a8f3366862b6be0a2",
+        "size_in_bytes": 3244
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/svg.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbd5294ee18dcb9567b98b70c3e0498ec39ff3fe5759e8eb5291134fa3eab5c6",
+        "sha256_in_prefix": "fbd5294ee18dcb9567b98b70c3e0498ec39ff3fe5759e8eb5291134fa3eab5c6",
+        "size_in_bytes": 2503
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/usage.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "45ebefdeb18261be5554bff1b0c38e9d50842d1f6c1a3bcc7a5bfdc0d4372b0f",
+        "sha256_in_prefix": "45ebefdeb18261be5554bff1b0c38e9d50842d1f6c1a3bcc7a5bfdc0d4372b0f",
+        "size_in_bytes": 8380
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/__pycache__/util.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d2193c7c3d4b425df989d6e6c70ebe8e7388d715757476cee756f6bba998ef6",
+        "sha256_in_prefix": "3d2193c7c3d4b425df989d6e6c70ebe8e7388d715757476cee756f6bba998ef6",
+        "size_in_bytes": 8147
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/_version.py",
+        "path_type": "hardlink",
+        "sha256": "9ec9bf45f66a3a8a1ace12130e80985c9806ef8ea3b85d804ed27b6c269e8353",
+        "sha256_in_prefix": "9ec9bf45f66a3a8a1ace12130e80985c9806ef8ea3b85d804ed27b6c269e8353",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/ansi_code_processor.py",
+        "path_type": "hardlink",
+        "sha256": "8071b3330eefa37eeb87a675bd082e79a023ec1e0d8c28a8f9b5454d0ba4ddf4",
+        "sha256_in_prefix": "8071b3330eefa37eeb87a675bd082e79a023ec1e0d8c28a8f9b5454d0ba4ddf4",
+        "size_in_bytes": 15380
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/base_frontend_mixin.py",
+        "path_type": "hardlink",
+        "sha256": "00a32e8ca731def379f02bfcc73fbb0c91b47bce617a555dd64ce997d0977a2a",
+        "sha256_in_prefix": "00a32e8ca731def379f02bfcc73fbb0c91b47bce617a555dd64ce997d0977a2a",
+        "size_in_bytes": 6295
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/bracket_matcher.py",
+        "path_type": "hardlink",
+        "sha256": "291e072dbf8cd0ccafbfc053638bdab617af32299e7ef42963634994ad17bfc0",
+        "sha256_in_prefix": "291e072dbf8cd0ccafbfc053638bdab617af32299e7ef42963634994ad17bfc0",
+        "size_in_bytes": 3733
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/call_tip_widget.py",
+        "path_type": "hardlink",
+        "sha256": "08aeb763c10644bc5ef31bffecb8b39f889741bb7de843853b4518a12c65472a",
+        "sha256_in_prefix": "08aeb763c10644bc5ef31bffecb8b39f889741bb7de843853b4518a12c65472a",
+        "size_in_bytes": 10683
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/client.py",
+        "path_type": "hardlink",
+        "sha256": "732c20c2fa6ab07cb896385d37368b302d8dabb27bc00aa41e4055e89719fd31",
+        "sha256_in_prefix": "732c20c2fa6ab07cb896385d37368b302d8dabb27bc00aa41e4055e89719fd31",
+        "size_in_bytes": 1971
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/comms.py",
+        "path_type": "hardlink",
+        "sha256": "d15e8e74d630765ce0dce8a64ce94b510a79294d081ef13cce4808668b4ba75f",
+        "sha256_in_prefix": "d15e8e74d630765ce0dce8a64ce94b510a79294d081ef13cce4808668b4ba75f",
+        "size_in_bytes": 8848
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/completion_html.py",
+        "path_type": "hardlink",
+        "sha256": "a97384e70e731c6331a63ca77698d56554a4f0fd1b65fb2e2b9996fb41e5dd6f",
+        "sha256_in_prefix": "a97384e70e731c6331a63ca77698d56554a4f0fd1b65fb2e2b9996fb41e5dd6f",
+        "size_in_bytes": 12909
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/completion_plain.py",
+        "path_type": "hardlink",
+        "sha256": "cf9ba7339c8d2075f69effccd2a8ca575b3e960d72236ac62a6da44607bff250",
+        "sha256_in_prefix": "cf9ba7339c8d2075f69effccd2a8ca575b3e960d72236ac62a6da44607bff250",
+        "size_in_bytes": 2234
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/completion_widget.py",
+        "path_type": "hardlink",
+        "sha256": "2ae03eaf45065c7a5692a181d822878dcab6839145978fe523548effaf6f865b",
+        "sha256_in_prefix": "2ae03eaf45065c7a5692a181d822878dcab6839145978fe523548effaf6f865b",
+        "size_in_bytes": 8151
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/console_widget.py",
+        "path_type": "hardlink",
+        "sha256": "1e53f29f2d2dc19009afcc62663f73ca83ef15023180067787306f406b8161ac",
+        "sha256_in_prefix": "1e53f29f2d2dc19009afcc62663f73ca83ef15023180067787306f406b8161ac",
+        "size_in_bytes": 108090
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/frontend_widget.py",
+        "path_type": "hardlink",
+        "sha256": "80e2cc10aec92538882dfe7540058fcf4fa4a4059c9503e98bfa60afc587f712",
+        "sha256_in_prefix": "80e2cc10aec92538882dfe7540058fcf4fa4a4059c9503e98bfa60afc587f712",
+        "size_in_bytes": 34821
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/history_console_widget.py",
+        "path_type": "hardlink",
+        "sha256": "d029f4645c670a7d9ed271951e93c3334ea2c63edb1b5f3b2ffefee9ad2c1717",
+        "sha256_in_prefix": "d029f4645c670a7d9ed271951e93c3334ea2c63edb1b5f3b2ffefee9ad2c1717",
+        "size_in_bytes": 9947
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/inprocess.py",
+        "path_type": "hardlink",
+        "sha256": "4b455e18af82bff4af975a3d72afe9f586a2b493497f3a70c14f17fd06ee0d42",
+        "sha256_in_prefix": "4b455e18af82bff4af975a3d72afe9f586a2b493497f3a70c14f17fd06ee0d42",
+        "size_in_bytes": 2874
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/ipython_widget.py",
+        "path_type": "hardlink",
+        "sha256": "f2bebbc125bc5dcc9f218b7012909c7deae549709a06e9b3c61f4547f2e1b6f0",
+        "sha256_in_prefix": "f2bebbc125bc5dcc9f218b7012909c7deae549709a06e9b3c61f4547f2e1b6f0",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/jupyter_widget.py",
+        "path_type": "hardlink",
+        "sha256": "d9ead68884d55cf3ab86ca4c8ac3f0c92a28d911d42abf20ca36b8d45e44babc",
+        "sha256_in_prefix": "d9ead68884d55cf3ab86ca4c8ac3f0c92a28d911d42abf20ca36b8d45e44babc",
+        "size_in_bytes": 24894
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/kernel_mixins.py",
+        "path_type": "hardlink",
+        "sha256": "75b633ee92d80b56a6b4ac668169958d7de9265e980fef59881fcd7fb9950c4e",
+        "sha256_in_prefix": "75b633ee92d80b56a6b4ac668169958d7de9265e980fef59881fcd7fb9950c4e",
+        "size_in_bytes": 1813
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/kill_ring.py",
+        "path_type": "hardlink",
+        "sha256": "08d2d2cce318f9ded44af1fb7c3ccfdd36d5534b785277ef02b68a1d940674bd",
+        "sha256_in_prefix": "08d2d2cce318f9ded44af1fb7c3ccfdd36d5534b785277ef02b68a1d940674bd",
+        "size_in_bytes": 3793
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/mainwindow.py",
+        "path_type": "hardlink",
+        "sha256": "3259f1e7f67cb0ef2dfc7bc3668a500ce28dcdd870015e32b9979cf50034d51b",
+        "sha256_in_prefix": "3259f1e7f67cb0ef2dfc7bc3668a500ce28dcdd870015e32b9979cf50034d51b",
+        "size_in_bytes": 38768
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/manager.py",
+        "path_type": "hardlink",
+        "sha256": "456eab7c34230b5079b3441345de20dc0f28f6bdf3f496cecf3aeff8aa097250",
+        "sha256_in_prefix": "456eab7c34230b5079b3441345de20dc0f28f6bdf3f496cecf3aeff8aa097250",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/pygments_highlighter.py",
+        "path_type": "hardlink",
+        "sha256": "d94706321c0f61e2cb8b0c08295810963f42875b8456dd64bf19d91549dbdffc",
+        "sha256_in_prefix": "d94706321c0f61e2cb8b0c08295810963f42875b8456dd64bf19d91549dbdffc",
+        "size_in_bytes": 9119
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/qstringhelpers.py",
+        "path_type": "hardlink",
+        "sha256": "80edcb4c7038044d11a70a429b41d3c3fc1483b14073a38fcd14ef6d07271d3d",
+        "sha256_in_prefix": "80edcb4c7038044d11a70a429b41d3c3fc1483b14073a38fcd14ef6d07271d3d",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/qtconsoleapp.py",
+        "path_type": "hardlink",
+        "sha256": "48d6620880e1e50298db792749ef59246de26345a18b019583799ea8647bec25",
+        "sha256_in_prefix": "48d6620880e1e50298db792749ef59246de26345a18b019583799ea8647bec25",
+        "size_in_bytes": 17253
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/resources/icon/JupyterConsole.svg",
+        "path_type": "hardlink",
+        "sha256": "5c964ec992b736edcebbaac49eb1ce18f474a12689e7a5437f30f54e3f723cec",
+        "sha256_in_prefix": "5c964ec992b736edcebbaac49eb1ce18f474a12689e7a5437f30f54e3f723cec",
+        "size_in_bytes": 26397
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/rich_ipython_widget.py",
+        "path_type": "hardlink",
+        "sha256": "d4d4344d98015fa8348a19cd2d685a5ea511d1c369f7a01063a4d04153fd362c",
+        "sha256_in_prefix": "d4d4344d98015fa8348a19cd2d685a5ea511d1c369f7a01063a4d04153fd362c",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/rich_jupyter_widget.py",
+        "path_type": "hardlink",
+        "sha256": "8ff47efa6abde0582fb21252df5b839dc2ad5eef1698c797322a03b57cf171d1",
+        "sha256_in_prefix": "8ff47efa6abde0582fb21252df5b839dc2ad5eef1698c797322a03b57cf171d1",
+        "size_in_bytes": 18478
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/rich_text.py",
+        "path_type": "hardlink",
+        "sha256": "162d372a6f466fba67b9aef22d31073a343980b1f9cc16ed158c6b85018f2415",
+        "sha256_in_prefix": "162d372a6f466fba67b9aef22d31073a343980b1f9cc16ed158c6b85018f2415",
+        "size_in_bytes": 8638
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/styles.py",
+        "path_type": "hardlink",
+        "sha256": "60eeed68088546058585569fb4d5338823e672382d54ab4b1123e8ac02ada8f3",
+        "sha256_in_prefix": "60eeed68088546058585569fb4d5338823e672382d54ab4b1123e8ac02ada8f3",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/svg.py",
+        "path_type": "hardlink",
+        "sha256": "0f7bf91fb88df446afdc6383840c418a4815e5fde76034894455437aa25b245a",
+        "sha256_in_prefix": "0f7bf91fb88df446afdc6383840c418a4815e5fde76034894455437aa25b245a",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "effbc803f6c068e521719bc4018075fac8a1c0d19ba54658f8c8391bfca6ce8b",
+        "sha256_in_prefix": "effbc803f6c068e521719bc4018075fac8a1c0d19ba54658f8c8391bfca6ce8b",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b591d4f92bea20092a784ef7e45349005205b13eb1baf866ffb765de88ebfe63",
+        "sha256_in_prefix": "b591d4f92bea20092a784ef7e45349005205b13eb1baf866ffb765de88ebfe63",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e00243f8e7802b7f4030f96ba2b63d47276497196dc76c890295102e8f123096",
+        "sha256_in_prefix": "e00243f8e7802b7f4030f96ba2b63d47276497196dc76c890295102e8f123096",
+        "size_in_bytes": 18676
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2b2c377522ec1e9244fdb32accd2d09000126b6d95578f21dc6f5d84851cae3",
+        "sha256_in_prefix": "d2b2c377522ec1e9244fdb32accd2d09000126b6d95578f21dc6f5d84851cae3",
+        "size_in_bytes": 7249
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_app.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "882f13c73286e37ac18ac1e6ef21ebff73c78a89c4d7e8aff431d18e8063f189",
+        "sha256_in_prefix": "882f13c73286e37ac18ac1e6ef21ebff73c78a89c4d7e8aff431d18e8063f189",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_comms.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b9ab1154972df570a72da7aa78140bf8e5f6238740e0b74d2319b750aa0b032",
+        "sha256_in_prefix": "2b9ab1154972df570a72da7aa78140bf8e5f6238740e0b74d2319b750aa0b032",
+        "size_in_bytes": 4491
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_completion_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c13ff525765cb2d571f0a92c799a6d4810254010aba183cf0b9d1993253b346",
+        "sha256_in_prefix": "9c13ff525765cb2d571f0a92c799a6d4810254010aba183cf0b9d1993253b346",
+        "size_in_bytes": 4068
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_frontend_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c79549d063ab74cbc72fed49f441cd94595132879709ac3ca8e2c866be2c1e5",
+        "sha256_in_prefix": "9c79549d063ab74cbc72fed49f441cd94595132879709ac3ca8e2c866be2c1e5",
+        "size_in_bytes": 2712
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_inprocess_kernel.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8be7b4a52aee28c6a9c026ded4e29b4cdd15c113df728a64fdcf0d068f89a8f1",
+        "sha256_in_prefix": "8be7b4a52aee28c6a9c026ded4e29b4cdd15c113df728a64fdcf0d068f89a8f1",
+        "size_in_bytes": 1213
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_jupyter_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b856a7fad897b897aafb16858d0f255ed10600b68b1cde12c3586e31cb75c53c",
+        "sha256_in_prefix": "b856a7fad897b897aafb16858d0f255ed10600b68b1cde12c3586e31cb75c53c",
+        "size_in_bytes": 4900
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_kill_ring.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "802f4575a9d18a7c32c9701040584686ba08da69cc28f09a31a642c0673c063a",
+        "sha256_in_prefix": "802f4575a9d18a7c32c9701040584686ba08da69cc28f09a31a642c0673c063a",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3bf63153548d6506f434b2f43d0b2b810a4257b77aee020f6540c646f120766",
+        "sha256_in_prefix": "a3bf63153548d6506f434b2f43d0b2b810a4257b77aee020f6540c646f120766",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_00_console_widget.py",
+        "path_type": "hardlink",
+        "sha256": "54dce0dceb4c56d288cb327399ce55090ea32d47aed7b1479d5cd1c84c9538bf",
+        "sha256_in_prefix": "54dce0dceb4c56d288cb327399ce55090ea32d47aed7b1479d5cd1c84c9538bf",
+        "size_in_bytes": 27576
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_ansi_code_processor.py",
+        "path_type": "hardlink",
+        "sha256": "17ae088a976aa5e37437b9706524924e3983b5b1a1f274f3bde989aa78d5ae3a",
+        "sha256_in_prefix": "17ae088a976aa5e37437b9706524924e3983b5b1a1f274f3bde989aa78d5ae3a",
+        "size_in_bytes": 9930
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_app.py",
+        "path_type": "hardlink",
+        "sha256": "507237ad21fa2bd72054c204616bc6a5dbfc611ff133722765b25d9b91ae9635",
+        "sha256_in_prefix": "507237ad21fa2bd72054c204616bc6a5dbfc611ff133722765b25d9b91ae9635",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_comms.py",
+        "path_type": "hardlink",
+        "sha256": "8262913f80eab3c28c7bcf990fd107a455cf92e1267acfddc66e2b9a50a5f04d",
+        "sha256_in_prefix": "8262913f80eab3c28c7bcf990fd107a455cf92e1267acfddc66e2b9a50a5f04d",
+        "size_in_bytes": 5648
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_completion_widget.py",
+        "path_type": "hardlink",
+        "sha256": "fa01bc91dfee18d7148ef02fac499b6f544c563e5912f01efda8d528f72edf73",
+        "sha256_in_prefix": "fa01bc91dfee18d7148ef02fac499b6f544c563e5912f01efda8d528f72edf73",
+        "size_in_bytes": 3343
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_frontend_widget.py",
+        "path_type": "hardlink",
+        "sha256": "21fd1866f6bdff56764f316cea98f73842fb39b3bd60d78132d5c1f4b9e160ec",
+        "sha256_in_prefix": "21fd1866f6bdff56764f316cea98f73842fb39b3bd60d78132d5c1f4b9e160ec",
+        "size_in_bytes": 3219
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_inprocess_kernel.py",
+        "path_type": "hardlink",
+        "sha256": "c71757ea734e89684fb14b1f118a7d2bfc5c7d7fb7b9672c159c3779a4d336c7",
+        "sha256_in_prefix": "c71757ea734e89684fb14b1f118a7d2bfc5c7d7fb7b9672c159c3779a4d336c7",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_jupyter_widget.py",
+        "path_type": "hardlink",
+        "sha256": "02e72b088273e9ad3dc56ee784b7bad18ae11dbbf7dfc5fcec6a0ffd173ebf2c",
+        "sha256_in_prefix": "02e72b088273e9ad3dc56ee784b7bad18ae11dbbf7dfc5fcec6a0ffd173ebf2c",
+        "size_in_bytes": 5207
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_kill_ring.py",
+        "path_type": "hardlink",
+        "sha256": "a5edc11b3176fde876a9d10cf567740778631893407989b6d6cdebac0f7bc3a2",
+        "sha256_in_prefix": "a5edc11b3176fde876a9d10cf567740778631893407989b6d6cdebac0f7bc3a2",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/tests/test_styles.py",
+        "path_type": "hardlink",
+        "sha256": "0af9e297eb7dc0e0999441295259e392b7fbba1523da1007a8274ead006df888",
+        "sha256_in_prefix": "0af9e297eb7dc0e0999441295259e392b7fbba1523da1007a8274ead006df888",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/usage.py",
+        "path_type": "hardlink",
+        "sha256": "4999bdffa49207a0fc3b0d1a32be17cab386bc93cb7e7f592a5154ee85dcc4e9",
+        "sha256_in_prefix": "4999bdffa49207a0fc3b0d1a32be17cab386bc93cb7e7f592a5154ee85dcc4e9",
+        "size_in_bytes": 8349
+      },
+      {
+        "_path": "Lib/site-packages/qtconsole/util.py",
+        "path_type": "hardlink",
+        "sha256": "98246a0f6e815087e88190cea8b8d7353ea891eb719aa2b9c0d26369fec48008",
+        "sha256_in_prefix": "98246a0f6e815087e88190cea8b8d7353ea891eb719aa2b9c0d26369fec48008",
+        "size_in_bytes": 8354
+      },
+      {
+        "_path": "Scripts/jupyter-qtconsole-script.py",
+        "path_type": "hardlink",
+        "sha256": "78d3c385c985323e0570a58d178f90ee970f4d138c4e672b7e6eec94474112d6",
+        "sha256_in_prefix": "78d3c385c985323e0570a58d178f90ee970f4d138c4e672b7e6eec94474112d6",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "Scripts/jupyter-qtconsole.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fe9d6b3bcd07f939ad4cdb7ad5f4aea06353647e761366b471828a08920801bc",
+  "size": 238629,
+  "subdir": "win-64",
+  "timestamp": 1737591439000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/qtconsole-5.6.1-py310haa95532_0.conda",
+  "version": "5.6.1"
+}
